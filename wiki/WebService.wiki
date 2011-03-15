@@ -75,7 +75,7 @@
 	*Userid:用户ID
 	*Songid:歌曲ID
 *返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
-====收藏/取消收藏===
+===收藏/取消收藏===
 *调用方法：musicdata.FaveThis(string userid,string songid)
 *参数说明：
 	*Userid:用户ID
