@@ -12,7 +12,7 @@
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#根据频道返回歌曲数据 根据频道返回歌曲数据]
   * [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 歌曲json格式]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#根据账号返回收藏列表 根据账号返回收藏列表]
- * [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲是否被收藏 根据账号返回该歌曲是否被收藏]
+ * [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲是否被收藏 歌曲是否被收藏]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#收藏/取消收藏 收藏/取消收藏]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#收听列表 收听列表]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#推荐列表 推荐列表]
