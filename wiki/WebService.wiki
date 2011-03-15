@@ -20,46 +20,52 @@
 
 ==账号管理==
 ===登录===
- * 调用方法：useraccount.login(string userid,string userpwd)
+ * 调用方法：useraccount.login(string userid,string userpwd, string apikey)
  * 参数说明：
   * Userid:用户名/邮箱
   * Userpwd:用户密码
+  * Apikey:应用授权ID
  * 返回值：状态码|状态说明，如1|登录成功,0|密码错误
 ===注册===
- * 调用方法：useraccount.reg(string userid,string userpwd,string nickname)
+ * 调用方法：useraccount.reg(string userid,string userpwd,string nickname, string apikey)
  * 参数说明：
   * Userid:用户名/邮箱
   * Userpwd:用户密码
   * Nickname:用户昵称
+  * Apikey:应用授权ID
  * 返回值：状态码|状态说明，如1|注册成功,0|昵称被占用
 ===找回密码===
- * 调用方法：useraccount.resetPassword(string userid,string userpwd,string nickname,string devicetype)
+ * 调用方法：useraccount.resetPassword(string userid, string apikey)
  * 参数说明：
   * Userid:用户名/邮箱
-  * Devicetype:发起请求的设备类型
+  * Apikey:应用授权ID
  * 返回值：状态码|状态说明，如1|密码已发至邮箱,0|昵称被占用
 ===修改密码===
- *  调用方法：useraccount.resetPassword(string userid,string oldpwd,string newpwd)
+ *  调用方法：useraccount.resetPassword(string userid,string oldpwd,string newpwd, string apikey)
  *  参数说明：
   * Userid:用户名/邮箱
   * Oldpwd:旧密码
   * Newpwd:新密码
+  * Apikey:应用授权ID
  * 返回值：状态码|状态说明，如1|修改成功,0|未知错误
 ===用户名是否可用===
- * 调用方法：useraccount.checkUsername(string username)
+ * 调用方法：useraccount.checkUsername(string username, string apikey)
  * 参数说明：
   * Username:用户名/邮箱
+  * Apikey:应用授权ID
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ===昵称是否可用===
- * 调用方法：useraccount.checkNickname(string nickname)
+ * 调用方法：useraccount.checkNickname(string nickname, string apikey)
  * 参数说明：
   * Nickname:用户昵称
+  * Apikey:应用授权ID
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ==歌曲管理==
 ===根据频道返回歌曲数据===
- * 调用方法：musicdata.getListByChannel(string channelId)
+ * 调用方法：musicdata.getListByChannel(string channelId, string apikey)
  * 参数说明：
   * ChannelID:频道ID
+  * Apikey:应用授权ID
  * 返回值：json数组
 ====歌曲json格式====
 {{{
@@ -83,21 +89,24 @@
 ]
 }}}
 ===根据账号返回收藏列表===
- * 调用方法：musicdata.getListByUser(string userid)
+ * 调用方法：musicdata.getListByUser(string userid, string apikey)
  * 参数说明：
   * Userid:用户ID
- * 返回值：json数组，[http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 格式]
+  * Apikey:应用授权ID
+ * 返回值：json数组 [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 格式]
 ===歌曲是否被收藏===
- * 调用方法：musicdata.isFaved(string userid,string songid)
+ * 调用方法：musicdata.isFaved(string userid,string songid, string apikey)
  * 参数说明：
   * Userid:用户ID
   * Songid:歌曲ID
+  * Apikey:应用授权ID
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ===收藏/取消收藏===
- * 调用方法：musicdata.FaveThis(string userid,string songid)
+ * 调用方法：musicdata.FaveThis(string userid,string songid, string apikey)
  * 参数说明：
   * Userid:用户ID
   * Songid:歌曲ID
+  * Apikey:应用授权ID
  * 返回值：状态码|状态描述，如1|收藏成功，1|取消收藏成功，0|未知错误
 ===收听列表===
 ===推荐列表===
