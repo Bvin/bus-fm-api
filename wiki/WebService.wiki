@@ -68,7 +68,7 @@
 *调用方法：musicdata.getListByUser(string userid)
 *参数说明：
 	*Userid:用户ID
-*返回值：json数组
+*返回值：json数组，[http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 格式]
 ===根据账号返回该歌曲是否被收藏===
 *调用方法：musicdata.isFaved(string userid,string songid)
 *参数说明：
