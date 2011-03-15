@@ -1,22 +1,22 @@
 #labels api,webservice
 =巴士电台接口API Web Service版=
 
- [http://code.google.com/p/bus-fm-api/wiki/WebService#账号管理 账号管理]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#登录 登录]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#注册 注册]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#找回密码 找回密码]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#修改密码 修改密码]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#用户名是否可用 用户名是否可用]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#昵称是否可用 昵称是否可用]
- [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲管理 歌曲管理]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#根据频道返回歌曲数据 根据频道返回歌曲数据]
-	[http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 歌曲json格式]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#根据账号返回收藏列表 根据账号返回收藏列表]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#根据账号返回该歌曲是否被收藏 根据账号返回该歌曲是否被收藏]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#收藏/取消收藏 收藏/取消收藏]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#收听列表 收听列表]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#推荐列表 推荐列表]
-  [http://code.google.com/p/bus-fm-api/wiki/WebService#偏好管理 偏好管理]
+*[http://code.google.com/p/bus-fm-api/wiki/WebService#账号管理 账号管理]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#登录 登录]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#注册 注册]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#找回密码 找回密码]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#修改密码 修改密码]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#用户名是否可用 用户名是否可用]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#昵称是否可用 昵称是否可用]
+*[http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲管理 歌曲管理]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#根据频道返回歌曲数据 根据频道返回歌曲数据]
+	*[http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 歌曲json格式]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#根据账号返回收藏列表 根据账号返回收藏列表]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#根据账号返回该歌曲是否被收藏 根据账号返回该歌曲是否被收藏]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#收藏/取消收藏 收藏/取消收藏]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#收听列表 收听列表]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#推荐列表 推荐列表]
+ *[http://code.google.com/p/bus-fm-api/wiki/WebService#偏好管理 偏好管理]
 
 ==账号管理==
 ===登录===
