@@ -1,0 +1,83 @@
+巴士电台接口API需求设计草案
+账号管理
+登录
+调用方法：useraccount.login(string userid,string userpwd)
+参数说明：
+	Userid:用户名/邮箱
+	Userpwd:用户密码
+返回值：状态码|状态说明，如1|登录成功,0|密码错误
+注册
+调用方法：useraccount.reg(string userid,string userpwd,string nickname)
+参数说明：
+	Userid:用户名/邮箱
+	Userpwd:用户密码
+	Nickname:用户昵称
+返回值：状态码|状态说明，如1|注册成功,0|昵称被占用
+找回密码
+调用方法：useraccount.resetPassword(string userid,string userpwd,string nickname,string devicetype)
+参数说明：
+	Userid:用户名/邮箱
+	Devicetype:发起请求的设备类型
+返回值：状态码|状态说明，如1|密码已发至邮箱,0|昵称被占用
+修改密码
+调用方法：useraccount.resetPassword(string userid,string oldpwd,string newpwd)
+参数说明：
+	Userid:用户名/邮箱
+	Oldpwd:旧密码
+	Newpwd:新密码
+返回值：状态码|状态说明，如1|修改成功,0|未知错误
+用户名是否可用
+调用方法：useraccount.checkUsername(string username)
+参数说明：
+	Username:用户名/邮箱
+返回值：状态码，0为假，1为真
+昵称是否可用
+调用方法：useraccount.checkNickname(string nickname)
+参数说明：
+	Nickname:用户昵称
+返回值：状态码0为假，1为真
+歌曲管理
+收藏列表
+调用方法：.checkNickname(string nickname)
+参数说明：
+	Nickname:用户昵称
+返回值：状态码0为假，1为真
+收藏/取消收藏功能
+收听列表（未实现）
+推荐列表（未实现）
+偏好管理（未实现）
+歌曲数据api
+根据频道返回歌曲数据
+调用方法：musicdata.getListByChannel(string channelId)
+参数说明：
+	ChannelID:频道ID
+返回值：json数组
+[
+{
+	"songid":"1045",
+	"title":"If You Want To",
+	"location":"http://ftp.luoo.net/radio/radio93/02.mp3",
+	"artist":"Alligators",
+	"album":"Piggy and Cups",
+	"thumb":"http://www.luoo.net/wp-content/uploads/ds.jpg"
+},
+{
+	"songid":"1503",
+	"title":"Let Go of the Dream",
+	"location":"http://ftp.luoo.net/radio/radio133/03.mp3",
+	"artist":"Hurricane No.1",
+	"albutm":"Hurricane No.1",
+	"thumb":"http://t.douban.com/lpic/s3832173.jpg"
+    }
+]
+根据账号返回收藏列表歌曲数据（见歌曲管理>收藏列表）
+调用方法：musicdata.getListByUser(string userid)
+参数说明：
+Userid:用户ID
+返回值：json数组
+根据账号返回该歌曲是否被收藏
+调用方法：musicdata.isFaved(string userid,string songid)
+参数说明：
+Userid:用户ID
+Songid:歌曲ID
+返回值：0，1，-1|错误描述
