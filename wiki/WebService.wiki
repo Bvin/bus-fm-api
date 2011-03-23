@@ -25,7 +25,7 @@
   * Userid:用户名/邮箱
   * Userpwd:用户密码
   * Apikey:应用授权ID
- * 返回值：状态码|状态说明，如1|登录成功,0|密码错误
+ * 返回值：json对象，包含了登录状态，以及用户信息状态码|状态说明，如1|登录成功,0|密码错误
 ===注册===
  * 调用方法：useraccount.reg(string userid,string userpwd,string nickname, string apikey)
  * 参数说明：
