@@ -19,44 +19,45 @@
 ==账号管理==
  * 访问的基准URL均为http://api.bus.fm/pt/，参数可采用GET或POST方式提交
 ===登录===
- * 调用地址：http://api.bus.fm/pt/login/
+ * 调用地址：http://api.bus.fm/pt/login
  * 参数说明：
   * Usermail:用户名/邮箱
   * Userpwd:用户密码
+  * GET方式提交示例：http://api.bus.fm/pt/login?usermail=mail@domain.com&userpwd=000000
  * 返回值：json对象，包含了登录状态，以及用户信息，如{{{{"userinfo":[{"member_id":"88","member_mail":"demo@bus.fm","member_nickname":"demo"}]}}}}
 ===注册===
- * 调用地址：http://api.bus.fm/pt/reg/
+ * 调用地址：http://api.bus.fm/pt/reg
  * 参数说明：
   * Usermail:用户名/邮箱
   * Userpwd:用户密码
   * Nickname:用户昵称
  * 返回值：状态码|状态说明，如1|注册成功,0|昵称被占用
 ===找回密码===
- * 调用地址：http://api.bus.fm/pt/resetPassword/
+ * 调用地址：http://api.bus.fm/pt/resetPassword
  * 参数说明：
   * Usermail:用户名/邮箱
  * 返回值：状态码|状态说明，如1|密码已发至邮箱,0|昵称被占用
 ===修改密码===
- *  调用地址：http://api.bus.fm/pt/changePassword/
+ *  调用地址：http://api.bus.fm/pt/changePassword
  *  参数说明：
   * Userid:用户名 (注：非邮箱)
   * Oldpwd:旧密码
   * Newpwd:新密码
  * 返回值：状态码|状态说明，如1|修改成功,0|未知错误
 ===用户名是否可用===
- * 调用地址：http://api.bus.fm/pt/checUsermail/
+ * 调用地址：http://api.bus.fm/pt/checUsermail
  * 参数说明：
   * Usermail:用户名/邮箱
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ===昵称是否可用===
- * 调用地址：http://api.bus.fm/pt/checkNickname/
+ * 调用地址：http://api.bus.fm/pt/checkNickname
  * 参数说明：
   * Nickname:用户昵称
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ==歌曲管理==
  * 访问的基准URL均为http://api.bus.fm/pt/，即与账号管理同入口，参数可采用GET或POST方式提交，
 ===根据频道返回歌曲数据===
- * 调用地址：http://api.bus.fm/pt/getListByChannel/
+ * 调用地址：http://api.bus.fm/pt/getListByChannel
  * 参数说明：
   * ChannelID:频道ID
   * Apikey:应用授权ID
@@ -85,19 +86,19 @@
 }
 }}}
 ===根据账号返回收藏列表===
- * 调用地址：http://api.bus.fm/pt/getListByUserID/
+ * 调用地址：http://api.bus.fm/pt/getListByUserID
  * 参数说明：
   * Userid:用户ID
   * Apikey:应用授权ID
  * 返回值：json数组 [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 格式]
 ===歌曲是否被收藏===
- * 调用地址：http://api.bus.fm/pt/isFaved/
+ * 调用地址：http://api.bus.fm/pt/isFaved
  * 参数说明：
   * Userid:用户ID
   * Songid:歌曲ID
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ===收藏/取消收藏===
- * 调用地址：http://api.bus.fm/pt/FaveThis/
+ * 调用地址：http://api.bus.fm/pt/FaveThis
  * 参数说明：
   * Userid:用户ID
   * Songid:歌曲ID
