@@ -1,4 +1,4 @@
-=巴士电台接口API Web Service版=
+=巴士电台接口API HTTP版=
 * [http://code.google.com/p/bus-fm-api/wiki/HTTP#账号管理 账号管理]
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#登录 登录]
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#注册 注册]
