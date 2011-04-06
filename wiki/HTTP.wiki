@@ -7,6 +7,8 @@
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#用户名是否可用 用户名是否可用]
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#昵称是否可用 昵称是否可用]
 * [http://code.google.com/p/bus-fm-api/wiki/HTTP#歌曲管理 歌曲管理]
+ * [http://code.google.com/p/bus-fm-api/wiki/HTTP#得到频道列表 频道列表]
+  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#频道数据格式 频道json格式]
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#根据频道返回歌曲数据 根据频道返回歌曲数据]
   * [http://code.google.com/p/bus-fm-api/wiki/HTTP#歌曲json格式 歌曲json格式]
  * [http://code.google.com/p/bus-fm-api/wiki/HTTP#根据账号返回收藏列表 根据账号返回收藏列表]
@@ -56,6 +58,21 @@
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ==歌曲管理==
  * 访问的基准URL均为http://api.bus.fm/pt/，即与账号管理同入口，参数可采用GET或POST方式提交，
+===得到频道列表===
+ * 调用地址：http://api.bus.fm/pt/getChannelList
+ * 返回值：json数组
+ ====频道数据格式====
+ {{{
+	{"Tracks":
+		[
+			{"cid":"1","cname":"白"},
+			{"cid":"2","cname":"灰"},
+			{"cid":"3","cname":"黑"},
+			{"cid":"4","cname":"红"},
+			{"cid":"99","cname":"私人频道"}
+		]
+	} 
+ }}}
 ===根据频道返回歌曲数据===
  * 调用地址：http://api.bus.fm/pt/getListByChannel
  * 参数说明：
