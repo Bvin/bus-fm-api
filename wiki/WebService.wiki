@@ -20,7 +20,7 @@
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#偏好管理 偏好管理]
 
 ==账号管理==
- * 此处用useraccount代表生成的用户验证代理类，实际应用中以自己生成的本地代理类为准
+ * 此处用useraccount代表生成的歌曲数据代理类，实际应用中以自己生成的本地代理类为准
 ===登录===
  * 调用方法：useraccount.login(string usermail, string userpwd)
  * 参数说明：
