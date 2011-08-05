@@ -1,5 +1,6 @@
 #labels api,webservice
 =巴士电台接口API Web Service版=
+* [http://code.google.com/p/bus-fm-api/wiki/WebService#服务地址 服务地址]
 * [http://code.google.com/p/bus-fm-api/wiki/WebService#账号管理 账号管理]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#登录 登录]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#注册 注册]
@@ -19,6 +20,9 @@
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#推荐列表 推荐列表]
  * [http://code.google.com/p/bus-fm-api/wiki/WebService#偏好管理 偏好管理]
 
+==服务地址==
+ * 权限模块：http://api.bus.fm/auth?wsdl
+ * 歌曲模块：http://api.bus.fm/music?wsdl
 ==账号管理==
  * 此处用useraccount代表生成的歌曲数据代理类，实际应用中以自己生成的本地代理类为准
 ===登录===
