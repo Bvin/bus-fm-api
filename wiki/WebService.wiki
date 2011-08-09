@@ -51,7 +51,7 @@
   * Newpwd:新密码
  * 返回值：状态码|状态说明，如1|修改成功,0|未知错误
 ===用户名是否可用===
- * 调用方法：useraccount.checUsermail(string usermail)
+ * 调用方法：useraccount.checkUsermail(string usermail)
  * 参数说明：
   * Usermail:用户名/邮箱
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
