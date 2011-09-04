@@ -107,7 +107,7 @@
  * 参数说明：
   * userid:用户ID
   * appkey:应用授权ID
- * 返回值：json数组 [http://code.google.com/p/bus-fm-api/wiki/WebService#歌曲json格式 格式]
+ * 返回值：json数组 [http://code.google.com/p/bus-fm-api/wiki/HTTP#歌曲json格式 格式]
 ===歌曲是否被收藏===
  * 调用地址：http://api.bus.fm/pt/isfaved
  * 参数说明：
