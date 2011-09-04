@@ -54,7 +54,7 @@
 ===昵称是否可用===
  * 调用地址：http://api.bus.fm/pt/checknickname
  * 参数说明：
-  * Nickname:用户昵称
+  * nickname:用户昵称
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ==歌曲管理==
  * 访问的基准URL均为http://api.bus.fm/pt/，即与账号管理同入口，参数可采用GET或POST方式提交，
