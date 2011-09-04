@@ -76,7 +76,7 @@
 ===根据频道返回歌曲数据===
  * 调用地址：http://api.bus.fm/pt/getlistbychannel
  * 参数说明：
-  * channelID:频道ID
+  * channelid:频道ID
   * appkey:应用授权ID
  * 返回值：json数组
 ====歌曲json格式====
