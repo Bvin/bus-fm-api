@@ -85,7 +85,7 @@
  * 返回值：json数组
 ====歌曲json格式====
 {{{
-{"Tracks":
+{"Channels":
 	[
 		{
 		"songid":"1045",
