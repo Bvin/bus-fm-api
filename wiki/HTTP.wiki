@@ -86,7 +86,7 @@
 		{
 		"songid":"1045",
 		"title":"If You Want To",
-		"location":"http://ftp.luoo.net/radio/radio93/02.mp3",
+		"url":"http://ftp.luoo.net/radio/radio93/02.mp3",
 		"artist":"Alligators",
 		"album":"Piggy and Cups",
 		"thumb":"http://www.luoo.net/wp-content/uploads/ds.jpg"
@@ -94,7 +94,7 @@
 		{
 		"songid":"1503",
 		"title":"Let Go of the Dream",
-		"location":"http://ftp.luoo.net/radio/radio133/03.mp3",
+		"url":"http://ftp.luoo.net/radio/radio133/03.mp3",
 		"artist":"Hurricane No.1",
 		"albutm":"Hurricane No.1",
 		"thumb":"http://t.douban.com/lpic/s3832173.jpg"
