@@ -24,7 +24,7 @@
  * 权限模块：http://api.bus.fm/auth?wsdl
  * 歌曲模块：http://api.bus.fm/music?wsdl
 ==账号管理==
- * 此处用useraccount代表生成的歌曲数据代理类，实际应用中以自己生成的本地代理类为准
+ * 此处用useraccount代表生成的用户验证代理类，实际应用中以自己生成的本地代理类为准
 ===登录===
  * 调用方法：useraccount.login(string usermail, string userpwd)
  * 参数说明：
@@ -61,7 +61,7 @@
   * Nickname:用户昵称
  * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
 ==歌曲管理==
- * 此处用musicdata代表生成的用户验证代理类，实际应用中以自己生成的本地代理类为准
+ * 此处用musicdata代表生成的歌曲数据代理类，实际应用中以自己生成的本地代理类为准
 ===得到频道列表===
  * 调用方法：musicdata.GetChannelList()
  * 返回值：json数组
