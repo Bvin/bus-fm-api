@@ -50,7 +50,7 @@
  * 调用地址：http://api.bus.fm/pt/checkusermail
  * 参数说明：
   * usermail:用户名/邮箱
- * 返回值：状态码或错误描述，0为假，1为真，其他情况为错误描述
+ * 返回值：状态码或错误描述，0为可用，1为已被占用，其他情况为错误描述
 ===昵称是否可用===
  * 调用地址：http://api.bus.fm/pt/checknickname
  * 参数说明：
